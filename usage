@@ -1,0 +1,5 @@
+from src.spell_corrector import SpellChecker
+
+checker = SpellChecker()
+corrected = checker.correct_sentence("Ths is a splel cheker.")
+print(corrected)  # Output: This is a spell checker.
